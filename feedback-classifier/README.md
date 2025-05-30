@@ -1,9 +1,9 @@
 # 🧠 Feedback Classifier – NLP (LLM-based)
 
-## Problem
+## 📉 Problem
 Customer feedback often arrives in bulk and in unstructured form, making it hard for businesses to triage urgent issues or understand themes without manual tagging.
 
-## Solution
+## ✅ Solution
 I built an automated review classification MVP using Google Forms, Sheets, Apps Script, and OpenAI's GPT API. It classifies reviews in real-time based on:
 
 - **Sentiment** (Positive, Negative, Mixed)
@@ -19,7 +19,7 @@ It also sends **email alerts** for high-urgency flagged reviews.
 3. GPT classifies the review and logs the result into Google Sheets
 4. If urgent + flagged, an email is sent to the product team
 
-## Tools & Technologies
+## 🛠️ Tools & Technologies
 - 🧩 Google Forms & Sheets
 - 🧠 OpenAI GPT-3.5-turbo (via Apps Script API call)
 - ⚙️ Apps Script automation
@@ -30,10 +30,11 @@ It also sends **email alerts** for high-urgency flagged reviews.
 |--------|-----------|--------|---------|------|
 | "I’m extremely disappointed. The product arrived shattered, customer support was unhelpful, and I need a refund immediately." | Negative | Product Quality, Support | High | Yes |
 
-## File Contents
+## 📁 Files Included
 - `feedback_classifier.gs` – Script to classify reviews (API key removed for security)
 - `Feedback Classifier Data (Responses).csv` – Sample data collected via Google Form
 
-## Status
-✅ Built and tested as a working MVP  
+## ✅ Status
+🟢 **Working MVP**  
+Built and tested end-to-end with OpenAI API and Google Apps Script. Review data classified live and alerts triggered for high urgency.
 📬 API key intentionally removed from the uploaded script
