@@ -1,6 +1,6 @@
 # 👕 Fit & Match Predictor – GPT-Enhanced Size Recommender
 
-## 🧩 Problem
+## 📉 Problem
 
 Online shoppers often struggle with finding the right clothing size due to variations in body type, fit preferences, and brand differences. This leads to high return rates and poor customer experience.
 
@@ -19,7 +19,7 @@ Built a smart, GPT-powered Fit Assistant that recommends a clothing size and con
 - Logs results in Google Sheets
 - Sends email alerts when confidence < 80%
 
-## 🛠️ Tools & Tech Used
+## 🛠️ Tools & Technologies
 
 - Google Forms + Sheets
 - Google Apps Script
@@ -63,3 +63,8 @@ If the confidence is low, an email is triggered with the customer details and mo
   "confidence": "72%",
   "reason": "Based on slim fit preference and athletic build, a smaller size is recommended. Confidence is moderate due to variance from user's usual size."
 }
+
+## ✅ Status
+
+🟢 **Working MVP**  
+Fully tested with Google Forms, Sheets, Apps Script, and OpenAI API. Predicts size with confidence scoring and alert logic.
