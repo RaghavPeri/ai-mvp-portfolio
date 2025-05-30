@@ -1,0 +1,21 @@
+name,last_login_days,support_tickets,email_open_rate,subscription_status,tenure_months,delivery_issues,Actual,Predicted,Action
+Customer_84,60,1,0.9530718470239532,1,3,1,1,0,Keep regular flow
+Customer_54,60,0,0.018075363615520867,0,8,0,0,1,Send retention offer
+Customer_71,1,0,0.6451033620305648,2,9,1,0,1,Send retention offer
+Customer_46,1,3,0.9401334424577784,1,1,1,0,1,Send retention offer
+Customer_45,7,3,0.3722827665617431,1,1,0,0,1,Send retention offer
+Customer_40,7,4,0.8509284487675127,2,17,0,1,1,Send retention offer
+Customer_23,30,4,0.6957843993450822,2,23,0,0,0,Keep regular flow
+Customer_81,60,0,0.2795603417967586,0,10,1,1,0,Keep regular flow
+Customer_11,30,0,0.7111495324380178,2,17,0,0,0,Keep regular flow
+Customer_1,30,3,0.983423140894843,2,23,1,1,0,Keep regular flow
+Customer_19,1,0,0.6756901170392807,1,7,0,1,1,Send retention offer
+Customer_31,14,2,0.5582934536070976,2,19,0,1,0,Keep regular flow
+Customer_74,7,3,0.23018526824155527,1,21,1,1,0,Keep regular flow
+Customer_34,1,4,0.2788713525921819,2,13,0,1,1,Send retention offer
+Customer_91,14,1,0.19091103115034602,0,7,0,1,1,Send retention offer
+Customer_5,60,0,0.15071754396542947,1,19,1,1,1,Send retention offer
+Customer_77,1,2,0.768554014306309,0,11,1,1,1,Send retention offer
+Customer_78,30,0,0.04360377175443375,1,4,0,1,1,Send retention offer
+Customer_13,60,4,0.3486659872917294,2,20,1,1,1,Send retention offer
+Customer_32,30,4,0.8826363431893397,1,1,0,0,0,Keep regular flow
