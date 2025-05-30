@@ -1,0 +1,8 @@
+Timestamp,Name,Email Address,Your Review,Sentiment,Theme,Urgency,Flag for CX?
+5/21/2025 22:02:38,Sarah Thomas,sarah.thomas@example.com,The product is terrible and arrived too late.,Negative,"Product Quality, Support",High,Yes
+5/21/2025 22:04:24,Kevin Patel,kevin.patel@example.com,"The product is decent, but shipping took longer than expected and the box was dented.",Mixed,Delivery,Medium,Yes
+5/21/2025 22:06:05,Emily Chen,emily.chen@example.com,Loved the product! It arrived early and was exactly as described. Will buy again!,Positive,"Product Quality, Delivery",Low,No
+5/21/2025 22:07:17,David Ross,david.ross@example.com,"Flavor was fine, but the texture was a bit off. Not terrible, just not great.",Mixed,Taste,Low,No
+5/21/2025 22:08:12,Aanya Mehta,aanya.mehta@example.com,Checkout crashed twice before I could order. Please fix this — it’s frustrating.,Negative,Checkout process,Medium,Yes
+5/21/2025 22:18:58,elon kalyan peri,drhawk@example.com,i love this article,Positive,Product,Low,No
+5/27/2025 11:13:28,Stephen Smith,steve@example.com,"I’m extremely disappointed. The product arrived shattered, customer support was unhelpful, and I need a refund immediately. ",Negative,"Product Quality, Support",High,Yes
