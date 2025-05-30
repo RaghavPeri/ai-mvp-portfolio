@@ -57,14 +57,15 @@ If the confidence is low, an email is triggered with the customer details and mo
 - Usual Size: M
 
 **Output (from GPT):**
+
 ```json
 {
   "recommended_size": "S",
   "confidence": "72%",
   "reason": "Based on slim fit preference and athletic build, a smaller size is recommended. Confidence is moderate due to variance from user's usual size."
 }
+```
 
 ## ✅ Status
-
-🟢 **Working MVP**  
+🟢 Working MVP
 Fully tested with Google Forms, Sheets, Apps Script, and OpenAI API. Predicts size with confidence scoring and alert logic.
