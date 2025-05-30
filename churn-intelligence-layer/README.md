@@ -56,6 +56,7 @@ Built a Random Forest-based churn prediction model using synthetic customer data
 name,last_login_days,support_tickets,email_open_rate,...,Actual,Predicted,Action
 Customer_1,30,2,0.43,...,1,1,Send retention offer
 Customer_2,7,0,0.75,...,0,0,Keep regular flow
+```
 
 ## 🛠️ Tools & Technologies
 
@@ -69,6 +70,7 @@ Customer_2,7,0,0.75,...,0,0,Keep regular flow
 This MVP was built on synthetic data to demonstrate the feasibility of churn modeling and action generation. It can be easily scaled with real customer datasets.
 
 ## ✅ Status
+
 🟢 **Working MVP**  
 Trained and tested on synthetic churn data. Predictions and retention actions generated with model insights visualized.
 
