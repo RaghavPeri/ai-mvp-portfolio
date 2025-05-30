@@ -37,4 +37,3 @@ It also sends **email alerts** for high-urgency flagged reviews.
 ## ✅ Status
 🟢 **Working MVP**  
 Built and tested end-to-end with OpenAI API and Google Apps Script. Review data classified live and alerts triggered for high urgency.
-📬 API key intentionally removed from the uploaded script
