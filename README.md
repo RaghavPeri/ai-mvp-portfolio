@@ -1,8 +1,8 @@
 # 🧠 AI MVP Portfolio – Raghav Peri
 
-Welcome to my personal AI Product Management portfolio. This repo contains multiple **working AI MVPs** that solve real-world problems using machine learning, NLP, and generative AI workflows.
+Welcome to my personal AI Product Management portfolio. This repo contains multiple working AI MVPs that solve real-world problems using machine learning, NLP, embeddings, and generative AI workflows.
 
-Each MVP was built hands-on using tools like Google Colab, OpenAI, Google Apps Script, Python, and Streamlit — with product thinking baked in.
+Each MVP was built hands-on using tools like Google Colab, OpenAI, Google Apps Script, Python, and Streamlit — with product thinking baked in. Use cases span personalization, classification, predictive analytics, and resume/job matching.
 
 ---
 
@@ -35,22 +35,34 @@ Predicts which users are likely to churn and **recommends retention actions**, u
 
 ---
 
+### 4. [📊 Resume Analyzer – OpenAI Embedding + Cosine Similarity](./resume-analyzer)  
+Evaluates resume-to-job-description semantic match using **AI embeddings and cosine similarity**.  
+Supports both static input and Google Docs integration for real-world demo storytelling.
+
+**Tech:** Google Colab, OpenAI Embeddings API, Google Docs API  
+**PM Skills:** GTM positioning, semantic search framing, recruiting UX  
+**Status:** ✅ Working MVP
+
+---
+
 ## 🛠️ Tools Used Across MVPs
 
-- **AI Models:** GPT-3.5-turbo, Random Forest
-- **Languages:** Python, JavaScript (Apps Script)
-- **Tools:** Google Colab, Google Forms, OpenAI API, GitHub
-- **Libraries:** pandas, numpy, scikit-learn, matplotlib
+- **AI Models:** GPT-3.5-turbo, text-embedding-ada-002, Random Forest  
+- **Languages:** Python, JavaScript (Apps Script)  
+- **Tools:** Google Colab, Google Docs API, Google Forms, OpenAI API, GitHub  
+- **Libraries:** pandas, numpy, scikit-learn, matplotlib  
+- **Others:** Google App Script, cosine similarity, semantic embeddings  
 
 ---
 
 ## 🧑‍💼 About Me
 
 I'm Raghav Peri — a Senior Product Manager with a passion for solving complex business problems through data and AI. This repo demonstrates my end-to-end skills across:
-- AI fluency (NLP, ML, LLMs)
+- AI fluency (NLP, ML, LLMs, Embeddings)
 - Product execution & validation
-- Rapid MVP delivery
-- Public storytelling
+- Rapid MVP delivery using real-world tools
+- Public storytelling through demos and case studies
 
 Let's connect on [LinkedIn](https://www.linkedin.com/in/raghavperi)!
+
 
