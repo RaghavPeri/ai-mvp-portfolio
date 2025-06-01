@@ -35,7 +35,6 @@ This MVP uses OpenAI’s embeddings to semantically compare a resume against a j
 
 - `Resume_Analyzer.ipynb` – Colab notebook with both dynamic and static modes
 - `README.md` – This file
-- *(Optional)* Screenshots of similarity outputs
 
 ## 🛠️ Tools & Technologies
 
