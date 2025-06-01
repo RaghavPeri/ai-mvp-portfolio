@@ -45,6 +45,15 @@ Supports both static input and Google Docs integration for real-world demo story
 
 ---
 
+### 5. [🤖 Fake Review Detector – NLP + Google Sheets](./fake-review-detector)  
+Detects potentially fake or problematic product reviews using a supervised NLP classifier (TF-IDF + Logistic Regression) trained on labeled data.
+
+**Tech:** Google Sheets, Google Colab, scikit-learn
+**PM Skills:** Trust & integrity signals, classification precision, data labeling
+**Status:** ✅ Working MVP
+
+---
+
 ## 🛠️ Tools Used Across MVPs
 
 - **AI Models:** GPT-3.5-turbo, text-embedding-ada-002, Random Forest  
