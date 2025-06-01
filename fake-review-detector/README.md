@@ -20,6 +20,8 @@ This system uses a TF-IDF + Logistic Regression model trained on labeled reviews
 
 - Reads labeled reviews from the `Training Data` tab of a shared Google Sheet
 - Trains a supervised ML classifier (TF-IDF + Logistic Regression)
+- Prints classification metrics to evaluate model precision and recall
+- Plots a confusion matrix to visualize performance on training data
 - Accepts new review input in the `New Review` tab (cell A2)
 - Predicts the label (Fake / Genuine) and writes it to cell B2
 - Designed for retrain-once, label-multiple use — so new reviews can be tested without rebuilding the model
@@ -46,7 +48,7 @@ This system uses a TF-IDF + Logistic Regression model trained on labeled reviews
 
 ## 📁 Files Included
 
-- `Fake_Review_Detector.ipynb` – Full notebook with training + prediction steps
+- `Fake_Review_Detector.ipynb` – Full notebook with training, evaluation, and prediction steps
 - `README.md` – This file
 
 ---
@@ -57,6 +59,17 @@ This system uses a TF-IDF + Logistic Regression model trained on labeled reviews
 - Google Sheets API (via `gspread`)
 - scikit-learn (TF-IDF + Logistic Regression)
 - pandas
+- matplotlib (confusion matrix)
+
+---
+
+## 📌 PM Notes
+
+- **Learn:** NLP classifier using TF-IDF, vectorization, and semantic classification
+- **PM Focus:** Trust & integrity signals, classification precision, edge case handling
+- **Stack:** Google Colab + scikit-learn + Google Sheets (via `gspread`)
+- **Coverage:** Supervised NLP, TF-IDF model training, metrics visualization
+- **Edge Cases:** Built to scale via labeled training sheet; re-labeling can refine precision
 
 ---
 
@@ -70,5 +83,4 @@ This system uses a TF-IDF + Logistic Regression model trained on labeled reviews
 ## ✅ Status
 
 🟢 **Working MVP**  
-Model live-tested via Colab and Google Sheets integration. Accurate predictions returned in near real-time.
-
+Live-tested via Google Sheets + Colab. Accurately classifies new reviews and prints evaluation metrics to verify trustworthiness of predictions.
