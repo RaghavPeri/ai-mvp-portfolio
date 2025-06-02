@@ -49,28 +49,38 @@ Supports both static input and Google Docs integration for real-world demo story
 Detects potentially fake or problematic product reviews using a supervised NLP classifier (TF-IDF + Logistic Regression) trained on labeled data.
 
 **Tech:** Google Sheets, Google Colab, scikit-learn
-**PM Skills:** Trust & integrity signals, classification precision, data labeling
+**PM Skills:** Trust & integrity signals, classification precision, data labeling  
+**Status:** ✅ Working MVP
+
+---
+
+### 6. [📈 Stock Sentiment Dashboard – VADER + Google Sheets](./stock-sentiment-dashboard)  
+Analyzes stock-related news headlines using **VADER sentiment scoring**, visualizes sentiment trends by company and date from Google Sheets.
+
+**Tech:** Google Colab, VADER, Google Sheets API, matplotlib  
+**PM Skills:** KPI storytelling, sentiment pipelines, live data integration, exec dashboards  
 **Status:** ✅ Working MVP
 
 ---
 
 ## 🛠️ Tools Used Across MVPs
 
-- **AI Models:** GPT-3.5-turbo, text-embedding-ada-002, Random Forest  
+- **AI Models:** GPT-3.5-turbo, text-embedding-ada-002, Random Forest, VADER Sentiment Analyzer  
 - **Languages:** Python, JavaScript (Apps Script)  
-- **Tools:** Google Colab, Google Docs API, Google Forms, OpenAI API, GitHub  
-- **Libraries:** pandas, numpy, scikit-learn, matplotlib  
-- **Others:** Google App Script, cosine similarity, semantic embeddings  
+- **Tools:** Google Colab, Google Docs API, Google Sheets API, Google Forms, OpenAI API, GitHub  
+- **Libraries:** pandas, numpy, scikit-learn, vaderSentiment, matplotlib  
+- **Others:** Google App Script, cosine similarity, semantic embeddings, TF-IDF, supervised NLP
 
 ---
 
 ## 🧑‍💼 About Me
 
 I'm Raghav Peri — a Senior Product Manager with a passion for solving complex business problems through data and AI. This repo demonstrates my end-to-end skills across:
-- AI fluency (NLP, ML, LLMs, Embeddings)
-- Product execution & validation
-- Rapid MVP delivery using real-world tools
-- Public storytelling through demos and case studies
+
+- **AI Fluency:** NLP, Machine Learning, LLMs, Embeddings  
+- **Product Execution:** Framing problems, building roadmaps, validating solutions  
+- **Rapid MVP Delivery:** Building real-world prototypes using no-code + code stacks  
+- **Public Storytelling:** Sharing insights through demos, case studies, and content
 
 Let's connect on [LinkedIn](https://www.linkedin.com/in/raghavperi)!
 
