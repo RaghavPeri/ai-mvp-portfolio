@@ -8,7 +8,7 @@ Each MVP was built hands-on using tools like Google Colab, OpenAI, Google Apps S
 
 ## 📁 Projects Included
 
-### 1. [🧠 Feedback Classifier – NLP (LLM-based)](./feedback-classifier)
+### 1. [🧠 Feedback Classifier – NLP (LLM-based)](./feedback-classifier)  
 Auto-tags customer reviews into **sentiment, theme, urgency**, and triggers alerts for high-risk items using GPT + Google Sheets.
 
 **Tech:** Google Apps Script, OpenAI API, Google Forms  
@@ -17,7 +17,7 @@ Auto-tags customer reviews into **sentiment, theme, urgency**, and triggers aler
 
 ---
 
-### 2. [👕 Fit & Match Predictor – GPT-Enhanced Sizing](./fit-match-predictor)
+### 2. [👕 Fit & Match Predictor – GPT-Enhanced Sizing](./fit-match-predictor)  
 Predicts best-fit clothing size with **confidence scores** and alerts for low-confidence predictions to reduce product returns.
 
 **Tech:** Google Forms, Apps Script, GPT  
@@ -26,7 +26,7 @@ Predicts best-fit clothing size with **confidence scores** and alerts for low-co
 
 ---
 
-### 3. [🌀 Churn Intelligence Layer – Predictive ML](./churn-intelligence-layer)
+### 3. [🌀 Churn Intelligence Layer – Predictive ML](./churn-intelligence-layer)  
 Predicts which users are likely to churn and **recommends retention actions**, using synthetic behavioral data and a Random Forest model.
 
 **Tech:** Python, Google Colab, scikit-learn  
@@ -48,7 +48,7 @@ Supports both static input and Google Docs integration for real-world demo story
 ### 5. [🤖 Fake Review Detector – NLP + Google Sheets](./fake-review-detector)  
 Detects potentially fake or problematic product reviews using a supervised NLP classifier (TF-IDF + Logistic Regression) trained on labeled data.
 
-**Tech:** Google Sheets, Google Colab, scikit-learn
+**Tech:** Google Sheets, Google Colab, scikit-learn  
 **PM Skills:** Trust & integrity signals, classification precision, data labeling  
 **Status:** ✅ Working MVP
 
@@ -63,25 +63,35 @@ Analyzes stock-related news headlines using **VADER sentiment scoring**, visuali
 
 ---
 
+### 7. [📄 Legal RAG Chatbot – LangChain + Google Sheets](./legal-rag-chatbot)  
+Answers user-submitted legal questions by semantically retrieving relevant content from a legal PDF using **LangChain’s RetrievalQA**, and returning AI-powered answers via Google Sheets.
+
+**Tech:** Google Colab, LangChain, FAISS, OpenAI, Google Sheets API  
+**PM Skills:** RAG design, user-triggered automation, compliance framing, modular pipelines  
+**Status:** ✅ Working MVP
+
+---
+
 ## 🛠️ Tools Used Across MVPs
 
 - **AI Models:** GPT-3.5-turbo, text-embedding-ada-002, Random Forest, VADER Sentiment Analyzer  
 - **Languages:** Python, JavaScript (Apps Script)  
 - **Tools:** Google Colab, Google Docs API, Google Sheets API, Google Forms, OpenAI API, GitHub  
-- **Libraries:** pandas, numpy, scikit-learn, vaderSentiment, matplotlib  
-- **Others:** Google App Script, cosine similarity, semantic embeddings, TF-IDF, supervised NLP
+- **Libraries:** pandas, numpy, scikit-learn, vaderSentiment, matplotlib, FAISS, LangChain  
+- **Others:** Google Apps Script, cosine similarity, semantic embeddings, TF-IDF, Retrieval-Augmented Generation (RAG), supervised NLP
 
 ---
 
 ## 🧑‍💼 About Me
 
-I'm Raghav Peri — a Senior Product Manager with a passion for solving complex business problems through data and AI. This repo demonstrates my end-to-end skills across:
+I'm Raghav Peri — a Senior Product Manager with a passion for solving complex business problems through data, AI, and rapid experimentation. This repo showcases my end-to-end ability to take ideas from insight to MVP using real tools, user empathy, and product thinking.
 
-- **AI Fluency:** NLP, Machine Learning, LLMs, Embeddings  
-- **Product Execution:** Framing problems, building roadmaps, validating solutions  
-- **Rapid MVP Delivery:** Building real-world prototypes using no-code + code stacks  
-- **Public Storytelling:** Sharing insights through demos, case studies, and content
+- **AI Fluency:** NLP, Machine Learning, LLMs, Embeddings, RAG, LangChain  
+- **Product Execution:** Framing problems, validating use cases, architecting scalable solutions  
+- **Rapid MVP Delivery:** Shipping real-world prototypes using no-code + code (Colab, Sheets, APIs)  
+- **Public Storytelling:** Sharing experiments, insights, and frameworks through demos and case studies
 
-Let's connect on [LinkedIn](https://www.linkedin.com/in/raghavperi)!
+Let’s connect on [LinkedIn](https://www.linkedin.com/in/raghavperi)!
+
 
 
