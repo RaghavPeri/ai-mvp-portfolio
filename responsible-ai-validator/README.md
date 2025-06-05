@@ -36,15 +36,19 @@ It includes two model pipelines built with different domains:
 
 ---
 
-## 📊 Output Columns (Excel Export)
+## 📁 Downloadable Audit Outputs
 
-| Sheet Name                | Description                                                  |
-|---------------------------|--------------------------------------------------------------|
-| `README`                  | Guide to each sheet’s content and purpose                    |
-| `trained_customer_data`   | Full training data with Customer_ID and label                |
-| `excluded_features_simulated` | Simulated sensitive features (for fairness tracking)       |
-| `predictions_with_shap`   | Predictions, SHAP values, and customer metadata              |
-| `human_oversight_metadata`| Compliance sheet with reviewer name, status, exclusions      |
+You can directly download the Excel outputs for each responsible AI pipeline here:
+
+- 🔹 [Download: Breast Cancer Classifier Excel Output](./Responsible_AI_Validator_Demo_Breast_Cancer_Classifier.xlsx)
+- 🔸 [Download: Mortgage Loan Model Excel Output](./Responsible_AI_Validator_Demo_Mortgage_Loan_Model.xlsx)
+
+Each file contains:
+- `README` — Sheet guide for stakeholders  
+- `trained_customer_data` — Model training data with labels  
+- `excluded_features_simulated` — Simulated sensitive features  
+- `predictions_with_shap` — SHAP values + predictions  
+- `human_oversight_metadata` — Governance and compliance metadata
 
 ---
 
