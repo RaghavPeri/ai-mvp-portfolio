@@ -62,6 +62,20 @@ Each file contains:
 
 ---
 
+## 🔄 Governance Handoff Flow
+
+This model’s SHAP outputs are designed for handoff across multiple teams:
+
+| Team         | What They Use SHAP For                                |
+|--------------|--------------------------------------------------------|
+| 📊 Data Science | Ensure model transparency and validate SHAP logic    |
+| ✅ Risk & Compliance | Audit fairness, confirm feature behavior aligns with policy |
+| 🧪 Product / PM | Communicate explainability to stakeholders and support deployment decisions |
+
+SHAP plots and audit logs ensure each team has **traceable visibility** into how the model behaves — building trust before go-live.
+
+---
+
 ## 📁 Files Generated
 
 ### 🔹 Breast Cancer Model Output
