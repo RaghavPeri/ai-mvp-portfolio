@@ -2,7 +2,8 @@
 
 Welcome to my personal AI Product Management portfolio. This repo contains multiple working AI MVPs that solve real-world problems using machine learning, NLP, embeddings, and generative AI workflows.
 
-Each MVP was built hands-on using tools like Google Colab, OpenAI, Google Apps Script, Python, and Streamlit — with product thinking baked in. Use cases span personalization, classification, predictive analytics, and resume/job matching.
+Each MVP was built hands-on using tools like Google Colab, OpenAI, Google Apps Script, Python, and Streamlit — with product thinking baked in.  
+Use cases span personalization, classification, predictive analytics, **model fairness**, **explainability**, and resume/job matching — all aligned to real stakeholder needs across industries like retail, finance, legal, and healthcare.
 
 ---
 
@@ -72,13 +73,22 @@ Answers user-submitted legal questions by semantically retrieving relevant conte
 
 ---
 
+### 8. [🧠 Responsible AI Validator – SHAP-Based Fairness & Audit Trail](./responsible-ai-validator)  
+Validates AI model fairness, transparency, and audit readiness using SHAP explainability across **healthcare (breast cancer)** and **finance (mortgage loan)** datasets. Simulates ethical exclusions, generates global/local explanations, and exports a 5-sheet governance-ready Excel workbook.
+
+**Tech:** Google Colab, scikit-learn, SHAP, pandas, matplotlib  
+**PM Skills:** Audit-readiness, fairness explainability, compliance integration, developer handoff  
+**Status:** ✅ Working MVP
+
+---
+
 ## 🛠️ Tools Used Across MVPs
 
 - **AI Models:** GPT-3.5-turbo, text-embedding-ada-002, Random Forest, VADER Sentiment Analyzer  
 - **Languages:** Python, JavaScript (Apps Script)  
 - **Tools:** Google Colab, Google Docs API, Google Sheets API, Google Forms, OpenAI API, GitHub  
-- **Libraries:** pandas, numpy, scikit-learn, vaderSentiment, matplotlib, FAISS, LangChain  
-- **Others:** Google Apps Script, cosine similarity, semantic embeddings, TF-IDF, Retrieval-Augmented Generation (RAG), supervised NLP
+- **Libraries:** pandas, numpy, scikit-learn, vaderSentiment, matplotlib, FAISS, LangChain, SHAP  
+- **Others:** Google Apps Script, cosine similarity, semantic embeddings, TF-IDF, Retrieval-Augmented Generation (RAG), supervised NLP, model interpretability (TreeExplainer)
 
 ---
 
@@ -86,8 +96,8 @@ Answers user-submitted legal questions by semantically retrieving relevant conte
 
 I'm Raghav Peri — a Senior Product Manager with a passion for solving complex business problems through data, AI, and rapid experimentation. This repo showcases my end-to-end ability to take ideas from insight to MVP using real tools, user empathy, and product thinking.
 
-- **AI Fluency:** NLP, Machine Learning, LLMs, Embeddings, RAG, LangChain  
-- **Product Execution:** Framing problems, validating use cases, architecting scalable solutions  
+- **AI Fluency:** NLP, Machine Learning, LLMs, Embeddings, SHAP, RAG, LangChain  
+- **Product Execution:** Framing problems, validating use cases, architecting scalable solutions, ensuring model audit-readiness  
 - **Rapid MVP Delivery:** Shipping real-world prototypes using no-code + code (Colab, Sheets, APIs)  
 - **Public Storytelling:** Sharing experiments, insights, and frameworks through demos and case studies
 
