@@ -124,6 +124,7 @@ Each file contains:
 ![image](https://github.com/user-attachments/assets/c596215f-e5ba-40c5-80aa-5fd92cac3d69)
 
 ⚖️ Histogram: Audits fairness of a selected feature
+
 ![image](https://github.com/user-attachments/assets/faafabd8-585a-4824-a98d-8b659ea9fe5d)
 
 
