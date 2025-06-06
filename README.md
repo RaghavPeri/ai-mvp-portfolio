@@ -1,9 +1,10 @@
-# 🧠 AI MVP Portfolio – Raghav Peri
+# 🚀 AI MVP Portfolio – Raghav Peri
 
 Welcome to my personal AI Product Management portfolio. This repo contains multiple working AI MVPs that solve real-world problems using machine learning, NLP, embeddings, and generative AI workflows.
 
-Each MVP was built hands-on using tools like Google Colab, OpenAI, Google Apps Script, Python, and Streamlit — with product thinking baked in.  
-Use cases span personalization, classification, predictive analytics, **model fairness**, **explainability**, and resume/job matching — all aligned to real stakeholder needs across industries like retail, finance, legal, and healthcare.
+Each MVP was built hands-on using tools like Google Colab, OpenAI, Google Apps Script, Python, and Streamlit — with product thinking baked in.
+  
+Use cases span personalization, classification, segmentation, predictive analytics, **model fairness**, **explainability**, and resume/job matching — all aligned to real stakeholder needs across industries like retail, finance, legal, and healthcare.
 
 ---
 
@@ -82,24 +83,36 @@ Validates AI model fairness, transparency, and audit readiness using SHAP explai
 
 ---
 
+### 9. [🎯 Audience Targeting Engine – Real-Time Segmentation + Live Scoring](./audience-targeting-engine)  
+Performs customer segmentation using **RFM (Recency, Frequency, Monetary)** features and a trained KMeans model.  
+Accepts live user inputs via Google Sheets, predicts segments in real time, maps them to campaign-ready action plans, and logs results for marketing audits.
+
+**Tech:** Google Colab, scikit-learn, pandas, gspread, pytz, Google Sheets API  
+**PM Skills:** Cohort strategy, real-time prediction, ML explainability, audit traceability  
+**Status:** ✅ Working MVP
+
+---
+
 ## 🛠️ Tools Used Across MVPs
 
-- **AI Models:** GPT-3.5-turbo, text-embedding-ada-002, Random Forest, VADER Sentiment Analyzer  
+- **AI Models:** GPT-3.5-turbo, text-embedding-ada-002, Random Forest, VADER Sentiment Analyzer, KMeans  
 - **Languages:** Python, JavaScript (Apps Script)  
 - **Tools:** Google Colab, Google Docs API, Google Sheets API, Google Forms, OpenAI API, GitHub  
-- **Libraries:** pandas, numpy, scikit-learn, vaderSentiment, matplotlib, FAISS, LangChain, SHAP  
-- **Others:** Google Apps Script, cosine similarity, semantic embeddings, TF-IDF, Retrieval-Augmented Generation (RAG), supervised NLP, model interpretability (TreeExplainer)
+- **Libraries:** pandas, numpy, scikit-learn (incl. KMeans, Random Forest, preprocessing), vaderSentiment, matplotlib, FAISS, LangChain, SHAP  
+- **Others:** Google Apps Script, cosine similarity, semantic embeddings, TF-IDF, RFM (Recency, Frequency, Monetary), Retrieval-Augmented Generation (RAG), model interpretability (TreeExplainer), Silhouette Score, supervised NLP
 
 ---
 
 ## 🧑‍💼 About Me
 
-I'm Raghav Peri — a Senior Product Manager with a passion for solving complex business problems through data, AI, and rapid experimentation. This repo showcases my end-to-end ability to take ideas from insight to MVP using real tools, user empathy, and product thinking.
+I'm Raghav Peri — a Senior Product Manager with a passion for solving complex business problems through data, AI, and rapid experimentation.  
+This repo showcases my end-to-end ability to take ideas from insight to MVP using real tools, user empathy, and product thinking.
 
-- **AI Fluency:** NLP, Machine Learning, LLMs, Embeddings, SHAP, RAG, LangChain  
+- **AI Fluency:** NLP, Machine Learning, LLMs, Embeddings, SHAP, RAG, LangChain, Clustering (KMeans), RFM Segmentation  
 - **Product Execution:** Framing problems, validating use cases, architecting scalable solutions, ensuring model audit-readiness  
-- **Rapid MVP Delivery:** Shipping real-world prototypes using no-code + code (Colab, Sheets, APIs)  
-- **Public Storytelling:** Sharing experiments, insights, and frameworks through demos and case studies
+- **Rapid MVP Delivery:** Shipping real-world prototypes using no-code + code (Colab, Sheets, APIs), with business-first outcomes  
+- **Public Storytelling:** Sharing experiments, insights, and frameworks through demos and case studies across domains like retail, finance, and legal
+
 
 Let’s connect on [LinkedIn](https://www.linkedin.com/in/raghavperi)!
 
