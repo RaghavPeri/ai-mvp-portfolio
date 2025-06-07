@@ -6,6 +6,10 @@ Each MVP was built hands-on using tools like Google Colab, OpenAI, Google Apps S
   
 Use cases span personalization, classification, segmentation, predictive analytics, **model fairness**, **explainability**, and resume/job matching — all aligned to real stakeholder needs across industries like retail, finance, legal, and healthcare.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+> 🎓 **For learners**: Each MVP in this repo is built to teach AI product thinking, fast prototyping, and real business applications using free tools.  
+> 💼 **For recruiters**: This is a live portfolio demonstrating AI fluency, product strategy, and technical execution — across NLP, ML, explainability, and real-time pipelines.  
+> 🛠️ **For builders**: Fork it, try the MVPs, remix them — all code is licensed under MIT with credit.
 ---
 
 ## 📁 Projects Included
@@ -103,6 +107,28 @@ Accepts live user inputs via Google Sheets, predicts segments in real time, maps
 
 ---
 
+## 🧭 Project Intent
+
+This repository is part of my hands-on AI Product Management portfolio. Each MVP was created to:
+
+- ✅ Demonstrate real-world AI applications  
+- 🎯 Simulate product thinking, experimentation, and outcome-first execution  
+- 💡 Teach others how to build AI prototypes using free tools like Colab, Sheets, OpenAI
+
+---
+
+## 🔐 MIT License Notice
+
+All code in this repo is released under the MIT License:
+
+- You are free to use, adapt, and share  
+- Attribution is required (© 2025 Raghav Peri)  
+- Perfect for educational, personal, or commercial remixing
+
+ **📮 Feel free to fork, star, or reach out with feedback!**
+
+---
+
 ## 🧑‍💼 About Me
 
 I'm Raghav Peri — a Senior Product Manager with a passion for solving complex business problems through data, AI, and rapid experimentation.  
@@ -116,5 +142,11 @@ This repo showcases my end-to-end ability to take ideas from insight to MVP usin
 
 Let’s connect on [LinkedIn](https://www.linkedin.com/in/raghavperi)!
 
+---
 
+## 📜 License
+
+This project is licensed under the [MIT License](./LICENSE).  
+You are free to use, modify, and share the code for personal, educational, or commercial purposes — with attribution.  
+© 2025 Raghav Peri. All rights reserved.
 
