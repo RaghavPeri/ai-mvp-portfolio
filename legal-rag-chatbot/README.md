@@ -7,6 +7,8 @@ Legal documents are long, complex, and hard to navigate. Non-technical users or 
 This MVP uses Retrieval-Augmented Generation (RAG) to answer legal questions from a pre-uploaded PDF (e.g., "Tenant Rights").  
 The user enters a question in Google Sheets. The backend finds relevant sections from the document using vector similarity and returns a GPT-generated response — written directly back into the same Sheet.
 
+⚠️ Note: The Google Sheet linked in the `.ipynb` file is **read-only** for demo purposes. You can duplicate it to your own Drive for live testing.
+
 ## 💡 What It Does
 - Loads and chunks a legal PDF into overlapping segments using LangChain
 - Embeds the chunks using OpenAI's embedding model
@@ -51,6 +53,20 @@ The user enters a question in Google Sheets. The backend finds relevant sections
 - Sheet-based user interface — zero-code for end users
 - Built-in timestamping and error logging
 - Clean separation of setup (Cell 1) and runtime (Cell 2) for easy reuse
+
+## 🧪 Live Usage
+
+Use the public sheet to test the chatbot workflow:
+
+👉 [Google Sheet – Legal Q&A (View Only)](https://docs.google.com/spreadsheets/d/1_QmYN7ac26U5mzW-fbgmxCKTeOEd9MebsfAO6GIS_Uk/edit?usp=sharing)
+
+**To try it yourself:**
+1. **Make a copy** of the Google Sheet into your own Drive.
+2. Add a question in **column A** of any blank row.
+3. Run the final Colab cell to generate the response in **column B**, with a timestamp in **column C**.
+
+> ⚠️ _Note: The original Sheet is view-only to preserve integrity across demos._
+
 
 ## 🔍 Sample Output
 🟨 Question: Can a landlord enter my home without notice?  
