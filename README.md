@@ -3,8 +3,8 @@
 Welcome to my personal AI Product Management portfolio. This repo contains multiple working AI MVPs that solve real-world problems using machine learning, NLP, embeddings, and generative AI workflows.
 
 Each MVP was built hands-on using tools like Google Colab, OpenAI, Google Apps Script, Python, and Streamlit — with product thinking baked in.
-  
-Use cases span personalization, classification, segmentation, predictive analytics, **model fairness**, **explainability**, and resume/job matching — all aligned to real stakeholder needs across industries like retail, finance, legal, and healthcare.
+
+Use cases span personalization, classification, segmentation, predictive analytics, **recommendation systems**, **model fairness**, **explainability**, and resume/job matching — all aligned to real stakeholder needs across industries like retail, finance, legal, and healthcare.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 > 🎓 **For learners**: Each MVP in this repo is built to teach AI product thinking, fast prototyping, and real business applications using free tools.  
@@ -97,13 +97,23 @@ Accepts live user inputs via Google Sheets, predicts segments in real time, maps
 
 ---
 
+### 10. [🎥 Product Recommender – Collaborative Filtering + A/B Strategy](./product-recommender)  
+Builds a personalized product recommendation system using **SVD-based collaborative filtering** (via `scikit-surprise`).  
+Implements **cold-start fallback logic**, **A/B test simulation**, and **top-N predictions** for unseen users, enabling experimentation and scalable personalization.
+
+**Tech:** Google Colab, scikit-surprise, pandas, numpy, Google Sheets (gspread)  
+**PM Skills:** GTM strategy, personalization logic, A/B testing, experimentation roadmap  
+**Status:** ✅ Working MVP
+
+---
+
 ## 🛠️ Tools Used Across MVPs
 
-- **AI Models:** GPT-3.5-turbo, text-embedding-ada-002, Random Forest, VADER Sentiment Analyzer, KMeans  
+- **AI Models:** GPT-3.5-turbo, text-embedding-ada-002, Random Forest, VADER Sentiment Analyzer, KMeans, SVD (scikit-surprise)  
 - **Languages:** Python, JavaScript (Apps Script)  
 - **Tools:** Google Colab, Google Docs API, Google Sheets API, Google Forms, OpenAI API, GitHub  
-- **Libraries:** pandas, numpy, scikit-learn (incl. KMeans, Random Forest, preprocessing), vaderSentiment, matplotlib, FAISS, LangChain, SHAP  
-- **Others:** Google Apps Script, cosine similarity, semantic embeddings, TF-IDF, RFM (Recency, Frequency, Monetary), Retrieval-Augmented Generation (RAG), model interpretability (TreeExplainer), Silhouette Score, supervised NLP
+- **Libraries:** pandas, numpy, scikit-learn (incl. KMeans, Random Forest, preprocessing), scikit-surprise (SVD), vaderSentiment, matplotlib, FAISS, LangChain, SHAP  
+- **Others:** Google Apps Script, cosine similarity, semantic embeddings, TF-IDF, RFM (Recency, Frequency, Monetary), Retrieval-Augmented Generation (RAG), model interpretability (TreeExplainer), Silhouette Score, supervised NLP, A/B testing logic
 
 ---
 
@@ -134,11 +144,10 @@ All code in this repo is released under the MIT License:
 I'm Raghav Peri — a Senior Product Manager with a passion for solving complex business problems through data, AI, and rapid experimentation.  
 This repo showcases my end-to-end ability to take ideas from insight to MVP using real tools, user empathy, and product thinking.
 
-- **AI Fluency:** NLP, Machine Learning, LLMs, Embeddings, SHAP, RAG, LangChain, Clustering (KMeans), RFM Segmentation  
-- **Product Execution:** Framing problems, validating use cases, architecting scalable solutions, ensuring model audit-readiness  
+- **AI Fluency:** NLP, Machine Learning, LLMs, Embeddings, SHAP, RAG, LangChain, Clustering (KMeans), RFM Segmentation, Recommender Systems (SVD)  
+- **Product Execution:** Framing problems, validating use cases, architecting scalable solutions, running A/B tests, and ensuring model audit-readiness  
 - **Rapid MVP Delivery:** Shipping real-world prototypes using no-code + code (Colab, Sheets, APIs), with business-first outcomes  
-- **Public Storytelling:** Sharing experiments, insights, and frameworks through demos and case studies across domains like retail, finance, and legal
-
+- **Public Storytelling:** Sharing experiments, insights, and frameworks through demos and case studies across domains like retail, finance, legal, and personalization
 
 Let’s connect on [LinkedIn](https://www.linkedin.com/in/raghavperi)!
 
