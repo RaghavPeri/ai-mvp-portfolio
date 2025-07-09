@@ -24,7 +24,7 @@ A 6-agent orchestration engine that turns structured product data into images, c
 ---
 
 ## 📹 Demo Video  
-🎥 [Watch the full 6-minute walkthrough](https://youtu.be/0Ht1q3K1rwE?si=a0_m8NHXDx2QEL88)
+🎥 [Watch the full 8-minute walkthrough](https://youtu.be/0Ht1q3K1rwE?si=a0_m8NHXDx2QEL88)
 
 ---
 
