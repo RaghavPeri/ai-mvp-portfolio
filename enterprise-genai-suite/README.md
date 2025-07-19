@@ -31,6 +31,8 @@ A centralized AI Content Studio with role-based modules (QA, Compliance, Publish
 ## 📁 Explore My Full AI Portfolio  
 🔗 [https://bit.ly/portfolio-raghavperi](https://bit.ly/portfolio-raghavperi)
 
+This is a Google Drive hub for all my PM case studies, including this Enterprise GenAI Suite, the 10 MVPs in 30 Days deck, and more.
+
 ---
 
 ## 🧠 Built With
@@ -40,7 +42,7 @@ A centralized AI Content Studio with role-based modules (QA, Compliance, Publish
 - Replit agent workflows
 - Streamlit + Redis + TypeScript + Tailwind
 
-> All MVPs were developed in under 48 hours using free tools and real-world product thinking.
+All MVPs were developed in under 48 hours using free tools and real-world product thinking.
 
 ---
 
