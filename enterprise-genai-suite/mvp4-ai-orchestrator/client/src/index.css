@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(145, 29%, 23%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(35, 6%, 35%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(145, 29%, 23%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(145, 29%, 23%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(60, 4.8%, 95.9%);
+  --secondary-foreground: hsl(145, 29%, 23%);
+  --accent: hsl(60, 4.8%, 95.9%);
+  --accent-foreground: hsl(145, 29%, 23%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(145, 29%, 23%);
+  --radius: 0.5rem;
+
+  /* Williams-Sonoma Brand Colors */
+  --ws-forest: hsl(145, 29%, 23%);
+  --ws-cream: hsl(40, 33%, 95%);
+  --ws-gold: hsl(51, 69%, 52%);
+  --ws-gray: hsl(35, 6%, 25%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 3.7%, 15.9%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-ws-cream;
+    color: hsl(145, 29%, 23%);
+  }
+}
+
+@layer utilities {
+  .bg-ws-forest {
+    background-color: var(--ws-forest);
+  }
+  
+  .bg-ws-cream {
+    background-color: var(--ws-cream);
+  }
+  
+  .bg-ws-gold {
+    background-color: var(--ws-gold);
+  }
+  
+  .text-ws-forest {
+    color: var(--ws-forest) !important;
+  }
+  
+  .text-ws-cream {
+    color: var(--ws-cream) !important;
+  }
+  
+  .text-ws-gold {
+    color: var(--ws-gold) !important;
+  }
+  
+  .text-ws-gray {
+    color: hsl(35, 6%, 25%) !important;
+  }
+  
+  /* Force dark text for better readability */
+  .text-dark {
+    color: hsl(145, 29%, 23%) !important;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: hsl(145, 29%, 23%) !important;
+  }
+  
+  p, span, div, label {
+    color: hsl(145, 29%, 23%) !important;
+  }
+  
+  .text-gray-600, .text-gray-700 {
+    color: hsl(35, 6%, 25%) !important;
+  }
+  
+  .border-ws-forest {
+    border-color: var(--ws-forest);
+  }
+  
+  .border-ws-gold {
+    border-color: var(--ws-gold);
+  }
+  
+  .ring-ws-forest {
+    --tw-ring-color: var(--ws-forest);
+  }
+  
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+}
