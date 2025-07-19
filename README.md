@@ -2,9 +2,10 @@
 
 Welcome to my personal AI Product Management portfolio. This repo contains multiple working AI MVPs that solve real-world problems using machine learning, NLP, embeddings, and generative AI workflows.
 
-Each MVP was built hands-on using tools like Google Colab, OpenAI, Google Apps Script, Python, and Streamlit — with product thinking baked in.
+Each MVP was built hands-on using tools like Google Colab, OpenAI, Google Apps Script, Python, Streamlit, and LangChain — with product thinking baked in.
 
-Use cases span personalization, classification, segmentation, predictive analytics, **recommendation systems**, **model fairness**, **explainability**, and resume/job matching — all aligned to real stakeholder needs across industries like retail, finance, legal, and healthcare.
+Use cases span personalization, classification, segmentation, predictive analytics, **recommendation systems**, **model fairness**, **explainability**, **multi-agent orchestration**, **multimodal generation**, and resume/job matching — all aligned to real stakeholder needs across industries like retail, finance, legal, and healthcare.
+
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 > 🎓 **For learners**: Each MVP in this repo is built to teach AI product thinking, fast prototyping, and real business applications using free tools.  
@@ -107,13 +108,51 @@ Implements **cold-start fallback logic**, **A/B test simulation**, and **top-N p
 
 ---
 
+### 🧩 [MVPs 11–14: Enterprise GenAI Suite – Campaign Automation](./enterprise-genai-suite)
+
+_A suite of enterprise-grade MVPs to accelerate campaign creation using multi-agent systems, image generation, and governance workflows._
+
+---
+
+### 11. [🧠 Multi-Modal Content Generator – GPT + DALL·E](./enterprise-genai-suite/mvp1-multi-modal-content-generator)  
+Generates branded copy and visuals with tone sliders, A/B previews, and campaign acceleration tools.  
+**Tech:** Streamlit, GPT-4, DALL·E, Redis  
+**PM Skills:** Tone control, multimodal AI, experimentation  
+**Status:** ✅ Working MVP
+
+---
+
+### 12. [🎨 Agentic Interior Stylist Validator](./enterprise-genai-suite/mvp2-agentic-ai-interior-stylist)  
+Uses LangChain agents to validate prompt quality and tone before generating interior visuals with DALL·E.  
+**Tech:** LangChain agents, DALL·E, Python  
+**PM Skills:** Brand safety, multi-agent validation, visual generation  
+**Status:** ✅ Working MVP
+
+---
+
+### 13. [✍️ MCP Review Rewriter – Multi-Agent Rewrite + Governance](./enterprise-genai-suite/mvp3-mcp-review-rewriter)  
+Rewrites and critiques customer reviews using a 4-step governance pipeline: `Intent → Rewrite → Critique → Editor`.  
+**Tech:** LangChain agents, GPT-4, Streamlit  
+**PM Skills:** Governance modeling, agent orchestration, feedback transformation  
+**Status:** ✅ Working MVP
+
+---
+
+### 14. [⚙️ AI Orchestrator – Full Campaign Builder with Agents](./enterprise-genai-suite/mvp4-ai-orchestrator)  
+A 6-agent orchestration engine that converts structured product data into deployable visuals, copy, and React components.  
+**Tech:** Replit agents, LangChain, React, Tailwind, GPT-4  
+**PM Skills:** End-to-end automation, data-to-content pipelines, enterprise GenAI  
+**Status:** ✅ Working MVP
+
+---
+
 ## 🛠️ Tools Used Across MVPs
 
-- **AI Models:** GPT-3.5-turbo, text-embedding-ada-002, Random Forest, VADER Sentiment Analyzer, KMeans, SVD (scikit-surprise)  
+- **AI Models:** GPT-4, GPT-3.5-turbo, text-embedding-ada-002, DALL·E, Random Forest, VADER Sentiment Analyzer, KMeans, SVD (scikit-surprise)  
 - **Languages:** Python, JavaScript (Apps Script)  
-- **Tools:** Google Colab, Google Docs API, Google Sheets API, Google Forms, OpenAI API, GitHub  
-- **Libraries:** pandas, numpy, scikit-learn (incl. KMeans, Random Forest, preprocessing), scikit-surprise (SVD), vaderSentiment, matplotlib, FAISS, LangChain, SHAP  
-- **Others:** Google Apps Script, cosine similarity, semantic embeddings, TF-IDF, RFM (Recency, Frequency, Monetary), Retrieval-Augmented Generation (RAG), model interpretability (TreeExplainer), Silhouette Score, supervised NLP, A/B testing logic
+- **Tools:** Google Colab, Streamlit, Google Docs API, Google Sheets API, Google Forms, OpenAI API, GitHub  
+- **Libraries:** pandas, numpy, scikit-learn (incl. KMeans, Random Forest, preprocessing), scikit-surprise (SVD), vaderSentiment, matplotlib, FAISS, LangChain, SHAP, Redis  
+- **Others:** Google Apps Script, cosine similarity, semantic embeddings, TF-IDF, RFM (Recency, Frequency, Monetary), Retrieval-Augmented Generation (RAG), model interpretability (TreeExplainer), Silhouette Score, supervised NLP, A/B testing logic, multi-agent workflows, tone sliders, campaign orchestration, multimodal content generation
 
 ---
 
@@ -121,9 +160,9 @@ Implements **cold-start fallback logic**, **A/B test simulation**, and **top-N p
 
 This repository is part of my hands-on AI Product Management portfolio. Each MVP was created to:
 
-- ✅ Demonstrate real-world AI applications  
+- ✅ Demonstrate real-world AI applications — from personalization and fairness to orchestration and campaign automation  
 - 🎯 Simulate product thinking, experimentation, and outcome-first execution  
-- 💡 Teach others how to build AI prototypes using free tools like Colab, Sheets, OpenAI
+- 💡 Teach others how to build AI prototypes using free tools like Colab, Sheets, Streamlit, and OpenAI — with a strong focus on stakeholder impact and MVP velocity
 
 ---
 
@@ -144,10 +183,10 @@ All code in this repo is released under the MIT License:
 I'm Raghav Peri — a Senior Product Manager with a passion for solving complex business problems through data, AI, and rapid experimentation.  
 This repo showcases my end-to-end ability to take ideas from insight to MVP using real tools, user empathy, and product thinking.
 
-- **AI Fluency:** NLP, Machine Learning, LLMs, Embeddings, SHAP, RAG, LangChain, Clustering (KMeans), RFM Segmentation, Recommender Systems (SVD)  
-- **Product Execution:** Framing problems, validating use cases, architecting scalable solutions, running A/B tests, and ensuring model audit-readiness  
-- **Rapid MVP Delivery:** Shipping real-world prototypes using no-code + code (Colab, Sheets, APIs), with business-first outcomes  
-- **Public Storytelling:** Sharing experiments, insights, and frameworks through demos and case studies across domains like retail, finance, legal, and personalization
+- **AI Fluency:** LLMs (GPT-4), NLP, Embeddings, SHAP, RAG, LangChain agents + memory, DALL·E, Clustering (KMeans), Recommender Systems (SVD), RFM Segmentation  
+- **Product Execution:** Framing problems, validating use cases, architecting multi-agent workflows, designing A/B experiments, ensuring explainability and governance  
+- **Rapid MVP Delivery:** Building full-stack MVPs using Colab, Streamlit, Redis, OpenAI, Google Sheets/Docs APIs — with enterprise-grade UX and outcome-first logic  
+- **Public Storytelling:** Sharing experiments, frameworks, and case studies across industries like retail, finance, legal, and personalization — all backed by working code
 
 Let’s connect on [LinkedIn](https://www.linkedin.com/in/raghavperi)!
 
