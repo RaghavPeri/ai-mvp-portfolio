@@ -2,6 +2,10 @@
 
 This MVP helps retail visual teams validate and approve prompt inputs before they’re sent to image-generation models — using a multi-agent workflow. It’s designed to ensure **brand safety, compliance, and style alignment** at the source of generation.
 
+> **Note**: This project is part of a generic AI MVP portfolio designed to demonstrate enterprise AI capabilities.  
+> Any references to companies, brands, or enterprise scenarios are purely illustrative and not affiliated with any real organization.  
+> All branding and enterprise use cases are hypothetical and used only to contextualize the MVP's potential applications.
+
 ---
 
 ## 💡 Features
