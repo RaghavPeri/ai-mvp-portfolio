@@ -19,7 +19,7 @@ Validates and filters styling prompts using multi-agent governance layers before
 Rewrites customer reviews and scores tone/empathy using MCP-aligned critique and editor agents.
 
 ### 4. [⚙️ AI Orchestrator – Full Campaign Builder](./mvp4-ai-orchestrator)  
-A 6-agent orchestration engine that turns structured product data into images, copy, and React components — fully deployable.
+A centralized AI Content Studio with role-based modules (QA, Compliance, Publisher) and 6-agent orchestration across image generation, copywriting, and review workflows — ready for enterprise integration.
 
 ---
 
