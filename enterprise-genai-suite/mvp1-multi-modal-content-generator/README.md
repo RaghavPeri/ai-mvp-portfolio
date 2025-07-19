@@ -2,6 +2,11 @@
 
 This MVP enables marketers and creative teams to generate **brand-aligned product copy and visuals** in seconds using OpenAI’s GPT and DALL·E APIs. It supports campaign speed, tone personalization, and batch content generation — reducing dependency on cross-functional request loops.
 
+> **Note**: This project is part of a generic AI MVP portfolio designed to demonstrate enterprise AI capabilities.  
+> Any references to companies, brands, or enterprise scenarios are purely illustrative and not affiliated with any real organization.  
+> All branding and enterprise use cases are hypothetical and used only to contextualize the MVP's potential applications.
+
+
 ---
 
 ## 📦 Features
