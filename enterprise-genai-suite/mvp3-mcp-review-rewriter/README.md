@@ -2,6 +2,10 @@
 
 This MVP transforms raw customer feedback into **tone-aligned, empathetic, and brand-consistent** messaging using a structured agent workflow. It applies principles from the **Model Context Protocol (MCP)** to enforce tone quality across generated outputs.
 
+> **Note**: This project is part of a generic AI MVP portfolio designed to demonstrate enterprise AI capabilities.  
+> Any references to companies, brands, or enterprise scenarios are purely illustrative and not affiliated with any real organization.  
+> All branding and enterprise use cases are hypothetical and used only to contextualize the MVP's potential applications.
+
 ---
 
 ## 💡 Features
