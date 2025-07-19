@@ -104,6 +104,7 @@ Deploy frontend (client/) and backend (server/) as monorepo
 │
 ├── shared/                      → Types, prompt templates, constants
 ├── db/                          → PostgreSQL connection and table schema (Neon)
+│   └── connection.ts            → DB connection logic (PostgreSQL)
 ├── tailwind.config.ts           → Custom design system
 ├── vite.config.ts               → Vite build config
 ├── tsconfig.json                → TypeScript config
