@@ -4,6 +4,10 @@ This flagship MVP is a centralized AI Content Studio designed to orchestrate mul
 
 Built to support scalable AI adoption in retail environments, it serves as a modular command center integrating image generation, copywriting, code assistance, and review rewriting — all governed through a centralized orchestrator and secure session handling.
 
+> **Note**: This project is part of a generic AI MVP portfolio designed to demonstrate enterprise AI capabilities.  
+> Any references to companies, brands, or enterprise scenarios are purely illustrative and not affiliated with any real organization.  
+> All branding and enterprise use cases are hypothetical and used only to contextualize the MVP's potential applications.
+
 ---
 
 ## 💡 Features
@@ -102,17 +106,20 @@ Deploy frontend (client/) and backend (server/) as monorepo
 │   ├── routes/                  → Endpoints for each module
 │   └── orchestrator.js          → Agent coordination logic
 │
+├── db/                          → Neon DB connection config
+│   └── connection.ts            → PostgreSQL connection using pg
+│
 ├── shared/                      → Types, prompt templates, constants
-├── db/                          → PostgreSQL connection and table schema (Neon)
-│   └── connection.ts            → DB connection logic (PostgreSQL)
+├── .env.example                 → Environment variable guide (OpenAI, DB, etc.)
+├── .gitignore                   → Ignores sensitive/system files
 ├── tailwind.config.ts           → Custom design system
 ├── vite.config.ts               → Vite build config
 ├── tsconfig.json                → TypeScript config
 ├── ENTERPRISE_DEPLOYMENT.md     → Setup guide for cloud deployment
+
 ```
 
-👉 A `.env.example` file is included to show required keys — copy it to `.env` and fill in your values.
-
+👉 A `.env.example` file is included to show required keys (OpenAI, DB, server) — copy it to `.env` and fill in your values.
 
 ---
 
