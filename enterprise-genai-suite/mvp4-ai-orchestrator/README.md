@@ -58,6 +58,38 @@ Built to support scalable AI adoption in retail environments, it serves as a mod
 
 ---
 
+## 🚀 Deployment (Dev to Prod)
+
+This project is dev-hosted on Replit and is production-ready for deployment to Vercel or Render.
+
+### To deploy:
+
+1. Clone the repo and install dependencies  
+   ```bash
+   npm install
+
+2. Set up environment variables
+   ```bash
+   Copy .env.example → .env
+
+Add your OpenAI key and Neon DB URL
+
+3. For local testing:
+   ```bash
+   npm run dev
+
+4. To deploy on Vercel:
+
+Connect GitHub repo to Vercel
+
+Add environment variables in Vercel dashboard
+
+Deploy frontend (client/) and backend (server/) as monorepo
+
+✅ Already tested for monorepo compatibility.
+
+---
+
 ## 🗂️ File Structure
 
 ```
@@ -78,6 +110,17 @@ Built to support scalable AI adoption in retail environments, it serves as a mod
 ├── ENTERPRISE_DEPLOYMENT.md     → Setup guide for cloud deployment
 ```
 
+👉 A `.env.example` file is included to show required keys — copy it to `.env` and fill in your values.
+
+
+---
+
+## 🧭 Roadmap
+
+- [ ] Add real authentication (currently mock login for demo)
+- [ ] Integrate CMS connector (e.g., Contentful or Sanity.io)
+- [ ] Add analytics dashboard for content usage and decision logs
+- [ ] Auto-save session to PIM/DAM systems (optional plugins)
 
 ---
 
@@ -93,4 +136,12 @@ Built to support scalable AI adoption in retail environments, it serves as a mod
 - 📁 [Back to Enterprise GenAI Suite](../)  
 - 📹 [Watch demo (8:13)](https://youtu.be/0Ht1q3K1rwE?si=a0_m8NHXDx2QEL88)
 
+---
+
+## 🙏 Credits & Inspiration
+
+Inspired by internal AI workflows used by marketing and compliance teams in retail organizations.  
+OpenAI’s agent patterns and LangChain’s orchestration logic helped shape the review system.
+
+This MVP was built as part of the [Enterprise GenAI Suite](../) by Raghav Peri.
 
