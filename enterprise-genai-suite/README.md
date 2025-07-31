@@ -1,9 +1,13 @@
 # 🧠 Enterprise GenAI Suite – Campaign Automation MVPs  
 _Built by Raghav Peri_
 
-This suite contains **four enterprise-grade AI MVPs** developed to automate product content generation across image, text, code, and tone management. Originally designed for a real-world Product Manager role at Williams-Sonoma, these builds generalize across any retail, home, or lifestyle brand operating at scale.
+This suite contains **four enterprise-grade AI MVPs** developed to automate product content generation across text, image, code, tone and reviews — using agentic AI, memory, and governance workflows. These builds generalize across any retail, home, or lifestyle brand operating at scale.
 
 Each MVP solves a real business challenge with hands-on execution — using LangChain, OpenAI, Replit agents, Streamlit, and agentic orchestration.
+
+> **Note**: This project is part of a generic AI MVP portfolio designed to demonstrate enterprise AI capabilities.  
+> Any references to companies, brands, or enterprise scenarios are purely illustrative and not affiliated with any real organization.  
+> All branding and enterprise use cases are hypothetical and used only to contextualize the MVP's potential applications.
 
 ---
 
